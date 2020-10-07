@@ -1,0 +1,79 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "da3820f0-6191-47b1-bdd1-47aa045ed0a6": {
+        "id": "da3820f0-6191-47b1-bdd1-47aa045ed0a6",
+        "parent": null,
+        "name": "MyFirstProject7.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MyFirstProject7.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "MyFirstProject7"
+        },
+        "triggers": [],
+        "testCases": {
+          "1c92bd2e-4914-49f2-9b35-3353e7f78c45": {
+            "id": "1c92bd2e-4914-49f2-9b35-3353e7f78c45",
+            "functionId": "da3820f0-6191-47b1-bdd1-47aa045ed0a6",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "da3820f0-6191-47b1-bdd1-47aa045ed0a6"
+    ],
+    "currentFileId": "da3820f0-6191-47b1-bdd1-47aa045ed0a6",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.6",
+    "projectName": "MyFirstProject7",
+    "projectDescription": "My First Project7",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1602047875917
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "myfirstproject7",
+      "url": "https://github.com/Kumudikatest/myfirstproject7"
+    }
+  }
+}
